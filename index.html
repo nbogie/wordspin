@@ -13,13 +13,38 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script type="text/javascript" src="js/wordspin.js"></script>
 
+    <style>
+        .examplePhrase {
+            font-style: italic;
+        }
+    </style>
+
 </head>
 
 <body class="container-fluid">
-    <button id="spinButton" class="btn">Spin!</button>
+    <div class="examplePhrase">
+        <button id="spinButton" class="btn">Spin!</button> The <span id="adj1">Two</span> <span id="n1">One</span>
+        <span
+            id="v1">verb</span> the
+            <span id="adj2">a2</span> <span id="n2">n2</span>.
+    </div>
 
-    The <span id="adj1">Two</span> <span id="n1">One</span> <span id="v1">verb</span> the 
-    <span id="adj2">a2</span> <span id="n2">n2</span>.
+    <br/>
+    <div class="col-sm-6">
+        <div class="row well">
+            <div id="word1">One</div>
+        </div>
+
+        <div class="row">
+            <div id="word2a" class="col-sm-6 well">Two A</div>
+            <div id="word2b" class="col-sm-6 well">Two B</div>
+        </div>
+
+        <div class="row">
+            <div id="word3a" class="col-sm-6 well">Three A</div>
+            <div id="word3b" class="col-sm-6 well">Three B</div>
+        </div>
+    </div>
 
 </body>
 
